@@ -1,5 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
+//导包ElementUI
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+//用包ElementUI
+Vue.use(ElementUI);
 //导入抽取的路由,如果导入的是index,直接可以省略
 // import router from './router/index'
 import router from '@/router'
